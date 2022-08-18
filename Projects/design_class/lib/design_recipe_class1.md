@@ -37,20 +37,20 @@ _Make a list of examples of how the class will behave in different situations._
 
 #1
 tracker = TaskTracker.new
-tracker.add_task("Paint the house")
+tracker.add_task("Paint the house.")
 tracker.print_list => # returns "Paint the house"
 
 #2
 tracker = TaskTracker.new
-tracker.add_task("Paint the house")
-tracker.add_task("Fix Macbook")
+tracker.add_task("Paint the house.")
+tracker.add_task("Fix Macbook.")
 tracker.print_list => # returns "Paint the house" "Fix Macbook"
 
 #3
 tracker = TaskTracker.new
-tracker.add_task("Paint the house")
-tracker.add_task("Fix Macbook")
-tracker.remove_task("Paint the house")
+tracker.add_task("Paint the house.")
+tracker.add_task("Fix Macbook.")
+tracker.remove_task("Paint the house.")
 tracker.print_list => # returns "Fix Macbook"
 ```
 
