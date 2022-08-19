@@ -16,11 +16,11 @@ class MusicTracker
 def initialize
 @music_list # an array
 end
-def add_song(song) # track is a string
+def add_song(song) # song is a string
 # Return string "___ has been added."
 end
 def print_list
-# return array of tracks
+# return array of songs
 end
 
 
